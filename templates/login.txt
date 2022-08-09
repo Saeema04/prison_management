@@ -1,0 +1,55 @@
+<!Doctype html>
+<head>
+<title>Login</title>
+<style>
+body {
+       background-image: url('prison.png');
+       background-repeat: no-repeat;
+       background-attachment: fixed;  
+       background-size: cover;
+     }
+.myDiv {
+         border: 5px outset black;
+         background-color: white;
+         text-align: center;
+         width:400px;
+         height:250px;
+         position:absolute;
+         top:200px;
+         left:800px;
+         font-weight:bolder;
+       }
+.myDiv1 {
+         background-color:rgb(150,0,0);
+         text-align: center;
+         position:absolute;
+         top:0px;
+         left:0px;
+         width:100%;
+         word-spacing: 15px;
+       }
+.myDiv2 {
+         text-align: center;
+         position:relative;
+         top:0px;
+         left:0px;
+         width:100%;
+         word-spacing: 15px;
+       }
+</style>
+<script type="text/javascript" src="cell.js"></script>
+</head>
+<body>
+   <div class="myDiv1">
+      <h1>CRIMINAL DATABASE SYSTEM</h1>
+   </div>
+  <div class="myDiv">
+    <br><br><br><label>UserName:         <input type= "text" required id="cname"></label></br></br>
+    <label>Password:         <input type= "password" required id="first" onchange="validate();"></label></br></br>
+    <br><br>
+    <input type= "submit" value="Login"><br>
+<span style class="mydiv2">New user? <a href="DBMS.html">Signup</a></span>
+
+  </div>
+ </body>
+</html>
